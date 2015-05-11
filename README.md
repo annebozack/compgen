@@ -1,7 +1,7 @@
 # compgen
 R files for Computational Genomics final project
 
-All code was written in R.  The following R files are available on GitHub:
+All code was written in R.  The packages "matrix" and "quadprog" should be loaded.  The following R files are available on GitHub:
 
 - project_code_MatrixFact: This file contains all code used to perform the matrix factorization method and evaluate on simulated and actual data. Code used to generate the simulated data is also provide, but commented out, as the data set is provided.  Code used to evaluate the method on actual data is also commented out.  Running this code with the data_MatrixFact.RData file will test the method on the simulated data.
 
