@@ -220,7 +220,7 @@ avIteration = function(nSamp, nSites, nCellTypes, samples, nIterations, nAverage
 # samplesSim = genSamples(50, 100, matrix100, meanTopCpgBetas)
 
 ################# ESTIMATING X AND W WITH SIMULATED DATA #######################
-estXW = avIteration(100, 50, 6, samples, 300, 10)
+estXW = avIteration(100, 50, 6, samplesSim, 300, 5)
 
 estimatedW = estXW$W
 estimatedX = estXW$X
