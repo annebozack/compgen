@@ -1,5 +1,5 @@
 # compgen
-R files for Computational Genomics final project
+R files for Computational Genomics final project. Includes code to predict cell type distributino from DNA methylation microarray data (450K). 
 
 All code was written in R.  The packages "matrix" and "quadprog" should be loaded.  The following R files are available on GitHub:
 
